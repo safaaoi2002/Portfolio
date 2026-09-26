@@ -1,6 +1,7 @@
 .body{
     background-color: rgb(228, 227, 221);
-    /* font-family:emoji; */
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
     
 
     
@@ -53,10 +54,89 @@ margin-top: 30px;
 /* section2******************************************************************************************************* */
 
 .section2{
-  background-color: aliceblue;
+  background-color: rgb(250, 250, 250);
   border-radius: 15px;
   box-shadow: 10px;
 }
+.titles{  
+    /* display: inline-block;
+    border-bottom: 3px solid #b10000; 
+    padding-bottom: 5px;  */
+
+    text-shadow: 2px 2px 5px rgb(129, 0, 0);
+    /* font-family:Georgia, 'Times New Roman', Times, serif; */
+}
+
+/* section3************************************************************************************************************** */
+.skills-section {
+    /* height: 100vh; */
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+        url("../public/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: 100vh;
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+
+.skill-circle {
+    width: 120px;
+    height: 110px;
+    margin: auto;
+
+    border: 3px solid #850000;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgba(255, 255, 255, 0.45);
+
+    color: #850000;
+    font-size: 18px;
+    font-weight: 600;
+
+    transition: 0.3s ease;
+}
+.skill-circle:hover {
+    transform: translateY(8px);
+    background-color:  #b94e4e;
+    color: white;
+    box-shadow: 0 10px 25px rgba(133, 0, 0, 0.25);
+}
+.technical-skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 25px;
+    background-color: rgba(255, 255, 255, 0.603);
+    border-radius: 20px;
+}
+.technical-skills span {
+    padding: 10px 18px;
+    /* border-radius: 20px; */
+      
+    /* background-color: #cf8989;
+    color: #330000; */
+
+    font-size: 15px;
+
+    transition: 0.3s ease;
+}
+
+.technical-skills span:hover {
+    transform: translateY(-5px);
+    background-color: #b94e4e;
+    color: white;
+    border-radius: 25px;
+}
+
+
 
 /* animation and transformation *********************************************************************************** */
 
